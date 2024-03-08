@@ -1,0 +1,168 @@
+body{
+    background-color: #cbe7f49f;
+    margin: 0;
+    
+}
+
+/*cabeçalho*/
+header{
+    background-color: #b9e2f6;
+}
+.logo{
+    max-width: 75px;
+    height: auto;
+}
+
+.collapse navbar-collapse{
+    text-align: center;
+    display: flex;
+
+}
+
+.collapse navbar-collapse{
+    text-align: center;
+}
+
+/*Conteudo principal*/
+main{
+    min-height: 500px;
+}
+
+/*banner*/
+#section-banners img{
+    height: 450px;
+}
+
+
+
+/*Os mais procurados*/
+
+.procu{
+    max-width: 50px ;
+    max-height: 50px;
+    height: auto;
+
+}
+
+#section-vendidos{
+    text-align: center;
+
+}
+
+
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+}
+
+#section-vendidos img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1 px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Promoções */
+
+.promo{
+    max-width: 50px ;
+    max-height: 50px;
+    height: auto;
+
+}
+
+.preco {
+    color: red;
+}
+
+
+#section-promo{
+    text-align: center;
+}
+
+#section-promo h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-promo img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-promo .card{
+    margin: 5px;
+    border: 1 px solid #ccc;
+    border-radius: 10px;
+}
+
+/*Rodapé*/
+footer{
+    margin-top: auto;
+    padding: 20px;
+    background-color: #b9e2f6;
+    
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#footerlogin{
+    position: center;
+    bottom:0%;
+    width: 100%;
+    margin-top:120px;
+    padding: 20px;
+    
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    /* deixa o botão fixo na tela */
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #DEF0F8;
+}
+
+#form-cadastrar{
+    padding: 50px;
+    /* faz a parte de cadastro desaparecer */
+    display: none;
+}
+
+#botao-cadastrar{
+    background-color: #DEF0F8;
+}
+
+
+
